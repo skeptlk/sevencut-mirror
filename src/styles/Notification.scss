@@ -1,0 +1,34 @@
+@import 'variables';
+
+
+.notifications {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+
+    .msg {
+        width: 300px;
+        background: #fff;
+        color: $gray;
+        opacity: 0.6;
+        padding: 8px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: 200ms;
+        i {
+            float: right;
+        }
+        &:hover {
+            opacity: 1; 
+        }
+        &.warn {
+            color: rgb(235, 173, 26);
+        }
+        &.error {
+            color: $accent;
+        }
+
+    }
+}
+

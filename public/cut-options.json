@@ -1,0 +1,90 @@
+{
+  "thickness": {
+    "plasma": {
+      "steel": [
+        0.5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    "laser": {
+      "steel": [
+        0.5,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    "milling": {
+      "plexiglass": [
+        1.5,
+        1.8,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "plywood": [
+        3,
+        4,
+        6.5,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24,
+        27,
+        30
+      ]
+    }
+  },
+  "cutPricesForMeter": {
+    "plasma": 1,
+    "laser": 1,
+    "milling": 1
+  },
+  "materialSquareMeterPrices": {
+    "steel": 1,
+    "aluminum": 2,
+    "stainlesssteel": 3,
+    "plywood": 4,
+    "plexiglass": 5
+  },
+  "cutOutPrice": 20,
+  "serviceExtraProcent": 2,
+  "areaMaxMeters": {
+    "plasma": [
+      3,
+      1.5
+    ],
+    "laser": [
+      3,
+      1.5
+    ],
+    "milling": [
+      1,
+      1
+    ]
+  }
+}

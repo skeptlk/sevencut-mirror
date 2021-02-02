@@ -1,0 +1,56 @@
+@import 'variables';
+
+.footer {
+    background: $dark;
+    color: $gray;
+    font-size: 16px;
+    padding: 50px 0;
+
+    .footer-link {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        svg {
+            margin-right: 8px;
+        }
+    }
+
+    .logo {
+        width: 110px;
+    }
+    a.mail {
+        color: inherit;
+    }
+
+    .social-i {
+        margin-top: 20px;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .footer {
+        .social-i a {
+            margin-bottom: 8px;
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .footer .col-sm {
+        padding-top: 20px;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .footer .col-sm {
+        text-align: center;
+        .social-i {
+            text-align: center;
+            a { margin: 0 8px; }
+        }
+    }
+}
+
+

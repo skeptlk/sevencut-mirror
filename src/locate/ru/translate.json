@@ -1,0 +1,13 @@
+{
+    "translations": {
+        "selectFile": "Выберите файл",
+        "laser": "Лазер",
+        "plasma": "Плазма",
+        "milling": "Фрезеровка",
+        "aluminum": "Алюминий",
+        "plexiglass": "Оргстекло",
+        "plywood": "Фанера",
+        "stainlesssteel": "Нержавеющая сталь",
+        "steel": "Сталь"
+    }
+}

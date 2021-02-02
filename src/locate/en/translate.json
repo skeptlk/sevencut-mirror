@@ -1,0 +1,13 @@
+{
+    "translations": {
+        "selectFile": "Select a file",
+        "laser": "Laser",
+        "plasma": "Plasma",
+        "milling": "Milling",
+        "aluminum": "Aluminum",
+        "plexiglass": "Plexiglass",
+        "plywood": "Plywood",
+        "stainlesssteel": "Stainlesssteel",
+        "steel": "Steel"
+    }
+}
